@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Supimpons — Master Language Structure & Thought</title>
+    <meta
+      name="description"
+      content="Offline-first language learning combining syntax assembly, logic reading, and fast recall mechanics. Engineered for autonomous polyglots."
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="img/logo_with_mascot_no_writing_transparent_background.png"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Top Navigation -->
+    <header class="top-nav">
+      <div class="site-container nav-wrapper">
+        <div class="brand-pill">
+          <div class="brand-glyph">
+            <img
+              src="img/logo_with_mascot_no_writing_transparent_background.png"
+              alt="Supimpons Mascot"
+              class="brand-logo-img"
+            />
+          </div>
+          <div class="brand-text-block">
+            <span class="brand-name">Supimpons</span>
+            <span class="brand-subtext">Offline Logic Engine</span>
+          </div>
+        </div>
+
+        <nav class="nav-links">
+          <a href="#modules" class="nav-link">Modules</a>
+          <a href="#architecture" class="nav-link">Offline Core</a>
+          <a href="pages/privacy.html" class="nav-link">Privacy</a>
+          <a href="pages/terms.html" class="nav-link">Terms</a>
+        </nav>
+
+        <div class="app-chip">
+          <span class="chip-dot"></span>
+          <span>Zero Data</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section & In-App UI Demonstration -->
+    <main class="site-container">
+      <section class="hero-section">
+        <div class="hero-copy">
+          <div class="badge-headline">
+            <span>●</span> Multi-Track Syntax & Logic
+          </div>
+          <h1 class="hero-title">
+            Build language intuition,
+            <span class="gradient-text">piece by piece.</span>
+          </h1>
+          <p class="hero-desc">
+            Supimpons blends the tactile syntax assembly of
+            <strong>BrickDeck</strong>, the thought-provoking reading arenas of
+            <strong>InkSprint</strong>, and the daily habit continuity of
+            <strong>DotDash</strong> into an autonomous, offline-first study
+            companion.
+          </p>
+
+          <div class="cta-row">
+            <a
+              href="https://play.google.com/store/apps/details?id=com.gabriel.supimpons"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn-primary"
+            >
+              <svg
+                width="20"
+                height="20"
+                viewBox="0 0 24 24"
+                fill="currentColor"
+              >
+                <path
+                  d="M3.609 1.814L13.792 12 3.61 22.186a1.942 1.942 0 01-.219-.94V2.754c0-.348.078-.673.218-.94zm11.611 11.612L18.444 15l-12.7 7.33 9.476-8.904zm3.224-1.852l2.368 1.368c.907.524.907 1.378 0 1.902l-2.368 1.368-2.607-2.638 2.607-2.638l.001.001.001.001-.002.001zM5.744 1.67L18.444 9l-3.224 1.574-9.476-8.904z"
+                />
+              </svg>
+              <span>Download on Google Play</span>
+            </a>
+            <a href="#modules" class="btn-secondary">Explore Modules</a>
+          </div>
+        </div>
+
+        <!-- Live Hybrid UI Frame Replica -->
+        <div class="hero-visual">
+          <div class="app-frame">
+            <div class="app-frame-bar">
+              <span class="app-frame-title">INKSPRINT • LOGIC LAB</span>
+            </div>
+
+            <div class="app-canvas-inset">
+              <div class="canvas-meta-row">
+                <span>TARGET: JAPANESE</span>
+                <span>ID: 40</span>
+              </div>
+
+              <div class="prompt-box">
+                <span class="prompt-category">Cognitive Dilemma</span>
+                <div class="prompt-japanese">
+                  知識によって、私たちは変えられます。
+                </div>
+                <div class="prompt-reading">
+                  "We are transformed by the knowledge we hold."
+                </div>
+              </div>
+
+              <div class="blocks-label">
+                Assembly Matrix / Sentence Construction
+              </div>
+              <div class="block-tiles-tray">
+                <span class="puzzle-block selected">知識 [ちしき]</span>
+                <span class="puzzle-block">によって</span>
+                <span class="puzzle-block selected">私たち</span>
+                <span class="puzzle-block">は</span>
+                <span class="puzzle-block dotdash">変えられます</span>
+              </div>
+            </div>
+
+            <div class="app-frame-footer">
+              <p
+                style="
+                  font-family: var(--font-mono);
+                  font-size: 0.72rem;
+                  color: var(--text-dim);
+                "
+              >
+                Voice Accent Engine:
+              </p>
+              <div class="flag-group">
+                <!-- Japanese -->
+                <span class="flag-chip active">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#ffffff" d="M0 0h640v480H0z" />
+                    <circle fill="#d00000" cx="320" cy="240" r="144" />
+                  </svg>
+                  JA
+                </span>
+
+                <!-- English (US) -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#bd3d44" d="M0 0h640v480H0z" />
+                    <path
+                      stroke="#ffffff"
+                      stroke-width="37"
+                      d="M0 55.4h640M0 129.2h640M0 203.1h640M0 277h640M0 350.8h640M0 424.6h640"
+                    />
+                    <path fill="#192f5d" d="M0 0h256v258.5H0z" />
+                  </svg>
+                  EN
+                </span>
+
+                <!-- Spanish -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#aa151b" d="M0 0h640v480H0z" />
+                    <path fill="#f1bf00" d="M0 120h640v240H0z" />
+                  </svg>
+                  ES
+                </span>
+
+                <!-- French -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#002654" d="M0 0h213.3v480H0z" />
+                    <path fill="#ffffff" d="M213.3 0h213.4v480H213.3z" />
+                    <path fill="#ce1126" d="M426.7 0H640v480H426.7z" />
+                  </svg>
+                  FR
+                </span>
+
+                <!-- Portuguese -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#006600" d="M0 0h256v480H0z" />
+                    <path fill="#ff0000" d="M256 0h384v480H256z" />
+                    <circle fill="#ffff00" cx="256" cy="240" r="80" />
+                    <path
+                      fill="#ffffff"
+                      stroke="#ff0000"
+                      stroke-width="6"
+                      d="M236 210h40v40a20 20 0 0 1-40 0z"
+                    />
+                  </svg>
+                  PT
+                </span>
+
+                <!-- Russian -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#ffffff" d="M0 0h640v160H0z" />
+                    <path fill="#0039a6" d="M0 160h640v160H0z" />
+                    <path fill="#d52b1e" d="M0 320h640v160H0z" />
+                  </svg>
+                  RU
+                </span>
+
+                <!-- German -->
+                <span class="flag-chip">
+                  <svg
+                    class="flag-icon"
+                    viewBox="0 0 640 480"
+                    aria-hidden="true"
+                  >
+                    <path fill="#000000" d="M0 0h640v160H0z" />
+                    <path fill="#dd0000" d="M0 160h640v160H0z" />
+                    <path fill="#ffce00" d="M0 320h640v160H0z" />
+                  </svg>
+                  DE
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- The 3 Engine Pillars -->
+      <section id="modules" class="section-wrapper">
+        <div class="section-lead">
+          <div class="section-pretitle">The Supimpons Method</div>
+          <h2 class="section-heading">Three Integrated Practice Modalities</h2>
+          <p class="section-subtext">
+            No endless swipe flashcards or childish gamification loops. Every
+            module focuses on active cognitive load and authentic structural
+            intuition.
+          </p>
+        </div>
+
+        <div class="modules-grid">
+          <!-- BrickDeck -->
+          <article class="module-card">
+            <div class="card-top">
+              <div class="module-icon-box icon-orange">🧱</div>
+              <span class="module-tag">SYNTAX</span>
+            </div>
+            <h3 class="module-title">BrickDeck</h3>
+            <p class="module-summary">
+              Construct target-language sentences piece by piece. Move past
+              passive flashcard flipping by assembling modular lexical blocks,
+              typing and speaking target syntax with feedback.
+            </p>
+            <ul class="module-features-list">
+              <li>
+                <strong>Input Modes:</strong> Blocks Assembly & Active Typing
+              </li>
+              <li>
+                <strong>Flexible Curricula:</strong> Custom decks & multi-script
+                support
+              </li>
+              <li>
+                <strong>Structural Mastery:</strong> Natural grammar chunking
+              </li>
+            </ul>
+          </article>
+
+          <!-- InkSprint Arena -->
+          <article class="module-card">
+            <div class="card-top">
+              <div class="module-icon-box icon-blue">⚡</div>
+              <span class="module-tag">READING LAB</span>
+            </div>
+            <h3 class="module-title">InkSprint Arena</h3>
+            <p class="module-summary">
+              Engage with short-form cognitive dilemmas, philosophical
+              scenarios, and authentic prompts. Read in context, listen with
+              native device voice synthesis, and harvest unfamiliar phrases.
+            </p>
+            <ul class="module-features-list">
+              <li>
+                <strong>Context Engine:</strong> Thought-provoking prompt bank
+              </li>
+              <li>
+                <strong>Phrase Harvesting:</strong> Long-press to save to your
+                review deck
+              </li>
+              <li>
+                <strong>Multi-Accent TTS:</strong> Device-native spoken audio
+                rendering
+              </li>
+            </ul>
+          </article>
+
+          <!-- DotDash -->
+          <article class="module-card">
+            <div class="card-top">
+              <div class="module-icon-box icon-teal">📅</div>
+              <span class="module-tag">HABIT & CADENCE</span>
+            </div>
+            <h3 class="module-title">DotDash</h3>
+            <p class="module-summary">
+              A minimalist streak sequence tracker built to map your study
+              consistency. Visualize your study momentum across every language
+              track with zero cloud telemetry.
+            </p>
+            <ul class="module-features-list">
+              <li>
+                <strong>Visual Rhythm:</strong> Minimalist sequence dots & study
+                cadence
+              </li>
+              <li>
+                <strong>Pace Logging:</strong> Tracks daily sessions across all
+                active modules
+              </li>
+              <li>
+                <strong>100% Local:</strong> Streak records stored entirely on
+                your device
+              </li>
+            </ul>
+          </article>
+        </div>
+
+        <!-- Architecture Card -->
+        <div id="architecture" class="arch-card">
+          <div>
+            <h3 class="arch-title">Hardware-Centric & Privately Owned</h3>
+            <p class="arch-text">
+              Supimpons runs 100% locally. Your custom decks, harvested quotes,
+              progress metrics, and dictionaries reside directly inside an
+              offline SQLite database on your device. Zero telemetry, zero cloud
+              lock-in, and zero battery-draining background syncs.
+            </p>
+          </div>
+          <div class="arch-badges">
+            <span class="arch-badge-item">Local Storage</span>
+            <span class="arch-badge-item">No Login Required</span>
+            <span class="arch-badge-item">Airplane-Ready</span>
+            <span class="arch-badge-item">Zero Cloud Dependency</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Site Footer -->
+    <footer class="site-footer">
+      <div class="site-container footer-content">
+        <div class="footer-copy">
+          © 2026 Supimpons. Developed by Gabriel Melo de Lima.
+        </div>
+        <nav class="footer-nav">
+          <a href="privacy.html">Privacy Policy</a>
+          <a href="terms.html">Terms of Service</a>
+          <a href="mailto:supimpons@gmail.com">Contact Support</a>
+        </nav>
+      </div>
+    </footer>
+  </body>
+</html>
