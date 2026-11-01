@@ -647,6 +647,47 @@ a {
 }
 
 /* --------------------------------------------------------------------------
+   Pre-Footer Signature / Handwritten Logo Badge
+   -------------------------------------------------------------------------- */
+.brand-showcase-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0 16px 0;
+}
+
+.brand-handwriting-card {
+  background-color: #ffffff;
+  border-radius: var(--radius-md); /* 14px gentle rounded corner */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow:
+    0 8px 24px rgba(0, 0, 0, 0.35),
+    0 0 1px rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.brand-handwriting-card:hover {
+  transform: translateY(-2px);
+  box-shadow:
+    0 12px 28px rgba(0, 0, 0, 0.45),
+    0 0 20px var(--brand-orange-glow);
+}
+
+.brand-handwriting-img {
+  max-width: 260px;
+  max-height: 85px;
+  width: auto;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* --------------------------------------------------------------------------
    Global Footer
    -------------------------------------------------------------------------- */
 .site-footer {
